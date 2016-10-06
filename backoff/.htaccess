@@ -1,0 +1,14 @@
+SetEnv SESSION_USE_TRANS_SID 0
+
+# Enables mod_rewrite
+RewriteEngine on
+
+# Sets the base folder of the SEO sample
+# RewriteBase /lafille/
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^(.*)$ index.php/$1 [NC,L]

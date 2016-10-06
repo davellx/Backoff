@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scripts>
+    <script name="jQuery" path="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script name="htmleditor" path="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+    <script name="default" path="default.js"></script>
+</scripts>

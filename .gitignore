@@ -1,0 +1,6 @@
+#for Netbeans
+/nbproject
+
+#no use of config file
+/config/config.php
+/backoff/_generate.php
