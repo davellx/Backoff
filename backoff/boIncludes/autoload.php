@@ -1,9 +1,5 @@
 <?php
 
-use Doctrine\Common\Annotations\AnnotationRegistry;
-use Doctrine\ORM\Proxy\Autoloader;
-
-
 if(file_exists(EXTERNAL_LIBS_PATH.'vendor/autoload.php')){
 	$GLOBALS['composerLoader'] = include_once EXTERNAL_LIBS_PATH.'vendor/autoload.php';
 }
